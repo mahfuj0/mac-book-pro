@@ -72,18 +72,18 @@ firstPriceDelivery.addEventListener('click',function(){
     deliveryCharge.innerText = '20';
     updateTotal ();
 });
-
+// make-book- fixed-price
+const fixedPrice = document.getElementById('make-book-price');
+const fixedPriceText=fixedPrice.innerText;
+const fixedPriceNumber = parseInt(fixedPriceText);
 // total-price update
 const total = document.getElementById ("total-price");
 function updateTotal (){
     const totalMemoryPrice = Number (extraMemoryPrice.innerText);
     const totalSsdPrice = Number (extraPriceSsd.innerText);
     const totalDeliveryPrice = Number (deliveryCharge.innerText);
-    grandTotal = totalMemoryPrice + totalSsdPrice + totalDeliveryPrice;
+    grandTotal = totalMemoryPrice + totalSsdPrice + totalDeliveryPrice +fixedPriceNumber;
     total.innerText =grandTotal;
-   
-   
-    
 
 }
 
