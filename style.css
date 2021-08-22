@@ -1,0 +1,123 @@
+.container{
+display: flex;
+justify-content: center;
+margin-top: 50px;
+}
+
+
+#img{
+
+width: 500px;
+margin-right: 40px;
+height: 400px;
+}
+
+#mac-heading{
+color: rgb(41, 40, 40);
+font-weight: 600;
+   font-family: sans-serif ; 
+}
+.product-title{
+
+color: rgb(41, 39, 39);
+
+font-family: monospace;
+font-weight: 700;
+}
+
+
+/* buttons */
+
+.buttons{
+
+display: flex;
+margin-bottom: 50px;
+}
+.btn{
+cursor: pointer;
+margin-right: 15px;
+padding:6px;
+border-radius: 10px;
+border-style: none;
+border: 1px solid rgb(102, 100, 100);
+box-shadow:1px 1px 5px rgb(0, 0, 0),
+             -1px 1px 5px rgb(0, 0, 0);
+}
+.btn:hover{
+background-color: black;
+color: rgb(245, 240, 233);
+transition: 0.7s;
+box-shadow:none
+}
+.btn-title{
+font-family:sans-serif;
+color: rgb(29, 27, 24);
+font-weight: 700;
+
+}
+
+/* best-price */
+
+.price-list{
+    width: 300px;
+    height: 80px;
+    margin-top: 50px;
+}
+
+
+.best-price{
+display: flex;
+justify-content: space-between;
+
+margin: 0px;
+padding: 0%;
+}
+
+
+.list{
+
+
+margin: 5px;
+font-weight: 900;
+font-size: 16px;
+}
+.hr3 {
+
+background-color: yellow;
+    padding: 0%;
+    margin: 0px;
+
+}
+/* #hr {
+
+background-color: rgb(0, 0, 0);
+    padding: 0%;
+    margin: 0px;
+
+} */
+#total-br{
+   color: rgb(255, 0, 0);
+    width: 400px;
+    padding: 0%;
+    margin: 0px;
+    border-bottom: 0.7px solid rgb(5, 4, 4);
+}
+
+
+/* promo code  */
+#promo-btn{
+border-style:none ;
+background-color: rgb(255, 225, 0) ;
+color: rgb(0, 0, 0);
+padding: 5px 15px;
+border-radius: 10px;
+font-weight: 700;
+cursor: pointer;
+}
+#promo-input{
+
+border-radius: 6px;
+border-style:none ;
+border: 1px solid rgb(73, 70, 70);
+
+}
